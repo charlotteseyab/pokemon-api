@@ -1,6 +1,7 @@
 * {
     margin: 0;
     overflow-x: hidden;
+    text-decoration: none;
 }
 
 .head {
@@ -118,6 +119,10 @@ button:hover {
     color: blue;
 }
 
+.text-orange{
+    color: orangered;
+}
+
 .head h1 {
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -148,12 +153,19 @@ button:hover {
 
 
 .images {
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+    overflow: hidden;
+    padding: 20px 0;
     height: 200px;
+    width: 100%;
+    column-gap: 20px;
+    background-color: #070513;
 }
 
 .foot {
-    background-color: #111111;
+    background-color: #1b1a1a;
     color: white;
     padding: 10px;
     height: 50px;
@@ -179,3 +191,4 @@ button:hover {
         padding: 10px 10px;
     }
 }
+
