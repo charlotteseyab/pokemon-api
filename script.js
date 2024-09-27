@@ -69,4 +69,4 @@ const submitButton = document.getElementById("submit-button")
 submitButton.addEventListener("click", () => {
     fetchData()
     getPokemonData()
-})
+});

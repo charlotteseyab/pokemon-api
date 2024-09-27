@@ -6,7 +6,7 @@
 .head {
     background-color: #FCDE61;
     height: 30px;
-/* } 
+    /* } 
 
 .head img {
     width: 150px;
@@ -18,11 +18,11 @@
     background-attachment: fixed;
     background-image: url(./assests/img/bg-img.png);
     height: 500px;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.head h1{
+.head h1 {
     text-shadow: 5px 5px 1px #FCE314;
     padding-left: 50px;
     color: white;
@@ -69,7 +69,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     row-gap: 10px;
-    
+
 }
 
 .hero-img {
@@ -111,7 +111,7 @@ button:hover {
     padding: 20px;
     font-size: 30px;
     font-style: italic;
-    font-family: dancing Script,sans-serif ;
+    font-family: dancing Script, sans-serif;
 }
 
 .text-blue {
@@ -140,28 +140,42 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: dancing Script, sans-serif ;
+    font-family: dancing Script, sans-serif;
     font-size: 20px;
     font-weight: bolder;
     text-decoration: underline;
 }
 
 
-.images{
+.images {
     width: 200px;
     height: 200px;
 }
 
-.foot{
+.foot {
     background-color: #111111;
     color: white;
     padding: 10px;
     height: 50px;
 }
 
-.end{
+.end {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width : 600px) {
+    .container {
+        width: 90px;
+    }
+
+    .pokemonName {
+        width: 150px;
+    }
+
+    button {
+        padding: 10px 10px;
+    }
 }
