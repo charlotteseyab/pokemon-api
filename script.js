@@ -43,7 +43,7 @@ async function fetchData() {
 
 // Fetch data from the PokeAPI for Ditto
 async function getPokemonData() {
-    const response = await fetch('https://pokeapi.co/api/v2/pokemon/ditto');
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon/data');
     const data = await response.json();
 
     // Extract and log the desired text data
